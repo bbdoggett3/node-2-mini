@@ -5,6 +5,7 @@ const SERVER_PORT = 4000;
 
 const app = express();
 
+//Top level middleware
 app.use(express.json());
 app.use(cors());
 app.use(express.static(__dirname + '/../build'));
