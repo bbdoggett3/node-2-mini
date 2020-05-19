@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bbdoggett3/node-2-mini#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
